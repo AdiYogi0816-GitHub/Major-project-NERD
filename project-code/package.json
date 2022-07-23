@@ -1,0 +1,21 @@
+{
+  "name": "project-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "Prashant Gautam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^14.2.0",
+    "env": "0.0.2",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7",
+    "multer": "^1.4.4",
+    "node-fetch": "^2.6.7",
+    "pug": "^3.0.2"
+  }
+}

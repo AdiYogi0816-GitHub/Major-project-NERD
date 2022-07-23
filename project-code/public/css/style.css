@@ -1,0 +1,69 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.section-top {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(/images/Binary-Circuit-Board-Future-Technology-Blue-Cyber-Security-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slide 10s infinite;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.content h1 {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 16px;
+}
+
+.content a {
+    background: #f54a06;
+    padding: 10px 24px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+
+@keyframes slide {
+    0% {
+        background-image: url(/images/360_F_270047656_j8OsdZf5YuPcWc0E1o7nb2wrmPKjzHrZ.jpg);
+    }
+
+    33% {
+        background-image: url(/images/olRwW9.jpg);
+    }
+
+    67% {
+        background-image: url(/images/wp2691479.jpg);
+    }
+}
+
+
+/* css of blackListDetail.pug */
+#blacklist-detail {
+    background-color: #f54a06;
+}
+
+#fmp-cal{
+    background-color: rgb(226, 187, 135) !important;
+    text-align: left !important;
+}
